@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000687] (lab1_pkg) JobQueued: {'identifier': 'lab1_pkg', 'dependencies': OrderedDict()}
+[0.000727] (pything) JobQueued: {'identifier': 'pything', 'dependencies': OrderedDict()}
+[0.000752] (lab1_pkg) JobStarted: {'identifier': 'lab1_pkg'}
+[0.007174] (pything) JobStarted: {'identifier': 'pything'}
+[0.022101] (lab1_pkg) JobProgress: {'identifier': 'lab1_pkg', 'progress': 'cmake'}
+[0.022864] (lab1_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg', '-DCMAKE_INSTALL_PREFIX=/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg'], 'cwd': '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kshreyas'), ('SSH_AGENT_PID', '4472'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kshreyas'), ('OLDPWD', '/home/kshreyas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kshreyas'), ('JOURNAL_STREAM', '8:57529'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'kshreyas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kshreyas/miniconda3/bin:/home/kshreyas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kshreyas-Swift-SFX14-41G:@/tmp/.ICE-unix/4546,unix/kshreyas-Swift-SFX14-41G:/tmp/.ICE-unix/4546'), ('INVOCATION_ID', 'deaa8d4d17cb4aa6b8d8391b90190e06'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d9437158_eb16_4446_bd7c_a330b3130a79'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.557'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.043066] (lab1_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.062384] (lab1_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100452] (-) TimerEvent: {}
+[0.200931] (-) TimerEvent: {}
+[0.228905] (lab1_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.254692] (lab1_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.256946] (lab1_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.301077] (-) TimerEvent: {}
+[0.349212] (lab1_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.385665] (lab1_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.386631] (lab1_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.401411] (-) TimerEvent: {}
+[0.492819] (lab1_pkg) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[0.493062] (lab1_pkg) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[0.501869] (-) TimerEvent: {}
+[0.520344] (lab1_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.598130] (lab1_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.598478] (lab1_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.598644] (lab1_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.598725] (lab1_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.599320] (lab1_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.599430] (lab1_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.599675] (lab1_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.600056] (lab1_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.600394] (lab1_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.601016] (lab1_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.601127] (lab1_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.601359] (lab1_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.601958] (-) TimerEvent: {}
+[0.604432] (lab1_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.611272] (lab1_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.612349] (lab1_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg\n'}
+[0.619668] (lab1_pkg) CommandEnded: {'returncode': 0}
+[0.620380] (lab1_pkg) JobProgress: {'identifier': 'lab1_pkg', 'progress': 'build'}
+[0.624847] (lab1_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg', '--', '-j16', '-l16'], 'cwd': '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kshreyas'), ('SSH_AGENT_PID', '4472'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kshreyas'), ('OLDPWD', '/home/kshreyas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kshreyas'), ('JOURNAL_STREAM', '8:57529'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'kshreyas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kshreyas/miniconda3/bin:/home/kshreyas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kshreyas-Swift-SFX14-41G:@/tmp/.ICE-unix/4546,unix/kshreyas-Swift-SFX14-41G:/tmp/.ICE-unix/4546'), ('INVOCATION_ID', 'deaa8d4d17cb4aa6b8d8391b90190e06'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d9437158_eb16_4446_bd7c_a330b3130a79'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.557'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.671286] (lab1_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.671572] (lab1_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target relay\x1b[0m\n'}
+[0.683457] (pything) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pything', 'build', '--build-base', '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build', 'install', '--record', '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/install.log', '--install-scripts', '$base/lib/pything', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/pything', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kshreyas', 'SSH_AGENT_PID': '4472', 'XDG_SESSION_TYPE': 'x11', '__GLX_VENDOR_LIBRARY_NAME': 'nvidia', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/kshreyas', 'OLDPWD': '/home/kshreyas', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '4066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'kshreyas', 'JOURNAL_STREAM': '8:57529', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'kshreyas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/kshreyas/miniconda3/bin:/home/kshreyas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/kshreyas-Swift-SFX14-41G:@/tmp/.ICE-unix/4546,unix/kshreyas-Swift-SFX14-41G:/tmp/.ICE-unix/4546', 'INVOCATION_ID': 'deaa8d4d17cb4aa6b8d8391b90190e06', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d9437158_eb16_4446_bd7c_a330b3130a79', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', '__NV_PRIME_RENDER_OFFLOAD': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.557', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/prefix_override:/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.702119] (-) TimerEvent: {}
+[0.702619] (lab1_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o\x1b[0m\n'}
+[0.702877] (lab1_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o\x1b[0m\n'}
+[0.802260] (-) TimerEvent: {}
+[0.890842] (pything) StdoutLine: {'line': b'running egg_info\n'}
+[0.891199] (pything) StdoutLine: {'line': b'creating ../../build/pything/pything.egg-info\n'}
+[0.891347] (pything) StdoutLine: {'line': b'writing ../../build/pything/pything.egg-info/PKG-INFO\n'}
+[0.891582] (pything) StdoutLine: {'line': b'writing dependency_links to ../../build/pything/pything.egg-info/dependency_links.txt\n'}
+[0.891746] (pything) StdoutLine: {'line': b'writing entry points to ../../build/pything/pything.egg-info/entry_points.txt\n'}
+[0.891867] (pything) StdoutLine: {'line': b'writing requirements to ../../build/pything/pything.egg-info/requires.txt\n'}
+[0.891941] (pything) StdoutLine: {'line': b'writing top-level names to ../../build/pything/pything.egg-info/top_level.txt\n'}
+[0.901159] (pything) StdoutLine: {'line': b"writing manifest file '../../build/pything/pything.egg-info/SOURCES.txt'\n"}
+[0.902340] (-) TimerEvent: {}
+[0.935349] (pything) StdoutLine: {'line': b"reading manifest file '../../build/pything/pything.egg-info/SOURCES.txt'\n"}
+[0.936062] (pything) StdoutLine: {'line': b"writing manifest file '../../build/pything/pything.egg-info/SOURCES.txt'\n"}
+[0.936272] (pything) StdoutLine: {'line': b'running build\n'}
+[0.936376] (pything) StdoutLine: {'line': b'running build_py\n'}
+[0.936516] (pything) StdoutLine: {'line': b'creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build\n'}
+[0.936595] (pything) StdoutLine: {'line': b'creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib\n'}
+[0.936679] (pything) StdoutLine: {'line': b'creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib/pything\n'}
+[0.936745] (pything) StdoutLine: {'line': b'copying pything/__init__.py -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib/pything\n'}
+[0.936806] (pything) StdoutLine: {'line': b'running install\n'}
+[0.937465] (pything) StdoutLine: {'line': b'running install_lib\n'}
+[0.938439] (pything) StdoutLine: {'line': b'creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything\n'}
+[0.938602] (pything) StdoutLine: {'line': b'copying /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib/pything/__init__.py -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything\n'}
+[0.938908] (pything) StdoutLine: {'line': b'byte-compiling /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything/__init__.py to __init__.cpython-38.pyc\n'}
+[0.939745] (pything) StdoutLine: {'line': b'running install_data\n'}
+[0.939860] (pything) StdoutLine: {'line': b'creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index\n'}
+[0.939994] (pything) StdoutLine: {'line': b'creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index/resource_index\n'}
+[0.940070] (pything) StdoutLine: {'line': b'creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index/resource_index/packages\n'}
+[0.940133] (pything) StdoutLine: {'line': b'copying resource/pything -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index/resource_index/packages\n'}
+[0.940195] (pything) StdoutLine: {'line': b'copying package.xml -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/pything\n'}
+[0.940254] (pything) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.941446] (pything) StdoutLine: {'line': b'Copying ../../build/pything/pything.egg-info to /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything-0.0.0-py3.8.egg-info\n'}
+[0.942111] (pything) StdoutLine: {'line': b'running install_scripts\n'}
+[0.956231] (pything) StdoutLine: {'line': b"writing list of installed files to '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/install.log'\n"}
+[0.981459] (pything) CommandEnded: {'returncode': 0}
+[0.991479] (pything) JobEnded: {'identifier': 'pything', 'rc': 0}
+[1.002452] (-) TimerEvent: {}
+[1.102774] (-) TimerEvent: {}
+[1.203217] (-) TimerEvent: {}
+[1.303686] (-) TimerEvent: {}
+[1.404391] (-) TimerEvent: {}
+[1.504855] (-) TimerEvent: {}
+[1.605552] (-) TimerEvent: {}
+[1.706022] (-) TimerEvent: {}
+[1.806497] (-) TimerEvent: {}
+[1.906966] (-) TimerEvent: {}
+[2.007423] (-) TimerEvent: {}
+[2.108118] (-) TimerEvent: {}
+[2.208853] (-) TimerEvent: {}
+[2.309549] (-) TimerEvent: {}
+[2.410038] (-) TimerEvent: {}
+[2.510501] (-) TimerEvent: {}
+[2.610926] (-) TimerEvent: {}
+[2.711333] (-) TimerEvent: {}
+[2.811739] (-) TimerEvent: {}
+[2.912172] (-) TimerEvent: {}
+[3.012856] (-) TimerEvent: {}
+[3.113716] (-) TimerEvent: {}
+[3.214154] (-) TimerEvent: {}
+[3.314576] (-) TimerEvent: {}
+[3.415007] (-) TimerEvent: {}
+[3.515756] (-) TimerEvent: {}
+[3.616206] (-) TimerEvent: {}
+[3.717122] (-) TimerEvent: {}
+[3.785785] (lab1_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.817727] (-) TimerEvent: {}
+[3.918189] (-) TimerEvent: {}
+[3.927234] (lab1_pkg) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[4.018353] (-) TimerEvent: {}
+[4.118770] (-) TimerEvent: {}
+[4.219189] (-) TimerEvent: {}
+[4.319610] (-) TimerEvent: {}
+[4.420024] (-) TimerEvent: {}
+[4.520444] (-) TimerEvent: {}
+[4.620867] (-) TimerEvent: {}
+[4.721278] (-) TimerEvent: {}
+[4.821697] (-) TimerEvent: {}
+[4.922129] (-) TimerEvent: {}
+[5.022545] (-) TimerEvent: {}
+[5.122959] (-) TimerEvent: {}
+[5.223382] (-) TimerEvent: {}
+[5.323817] (-) TimerEvent: {}
+[5.417566] (lab1_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable relay\x1b[0m\n'}
+[5.423917] (-) TimerEvent: {}
+[5.524232] (-) TimerEvent: {}
+[5.609141] (lab1_pkg) StdoutLine: {'line': b'[100%] Built target relay\n'}
+[5.626324] (lab1_pkg) CommandEnded: {'returncode': 0}
+[5.627722] (-) TimerEvent: {}
+[5.646013] (lab1_pkg) JobProgress: {'identifier': 'lab1_pkg', 'progress': 'install'}
+[5.663314] (lab1_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg'], 'cwd': '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kshreyas'), ('SSH_AGENT_PID', '4472'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kshreyas'), ('OLDPWD', '/home/kshreyas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kshreyas'), ('JOURNAL_STREAM', '8:57529'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'kshreyas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kshreyas/miniconda3/bin:/home/kshreyas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kshreyas-Swift-SFX14-41G:@/tmp/.ICE-unix/4546,unix/kshreyas-Swift-SFX14-41G:/tmp/.ICE-unix/4546'), ('INVOCATION_ID', 'deaa8d4d17cb4aa6b8d8391b90190e06'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d9437158_eb16_4446_bd7c_a330b3130a79'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.557'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.670324] (lab1_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.670555] (lab1_pkg) StdoutLine: {'line': b'-- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/talker\n'}
+[5.671884] (lab1_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/talker" to ""\n'}
+[5.672200] (lab1_pkg) StdoutLine: {'line': b'-- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/relay\n'}
+[5.675223] (lab1_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/relay" to ""\n'}
+[5.675571] (lab1_pkg) StdoutLine: {'line': b'-- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/pythonpath.sh\n'}
+[5.675939] (lab1_pkg) StdoutLine: {'line': b'-- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/pythonpath.dsv\n'}
+[5.676197] (lab1_pkg) StdoutLine: {'line': b'-- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/python3.8/site-packages/lab1_pkg\n'}
+[5.676484] (lab1_pkg) StdoutLine: {'line': b'-- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/python3.8/site-packages/lab1_pkg/__init__.py\n'}
+[5.708138] (lab1_pkg) StdoutLine: {'line': b"Listing '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/python3.8/site-packages/lab1_pkg'...\n"}
+[5.708284] (lab1_pkg) StdoutLine: {'line': b"Compiling '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/python3.8/site-packages/lab1_pkg/__init__.py'...\n"}
+[5.710605] (lab1_pkg) StderrLine: {'line': b'CMake Error at cmake_install.cmake:101 (file):\n'}
+[5.710723] (lab1_pkg) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[5.710796] (lab1_pkg) StderrLine: {'line': b'  "/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/scripts/talker.py":\n'}
+[5.710860] (lab1_pkg) StderrLine: {'line': b'  No such file or directory.\n'}
+[5.710920] (lab1_pkg) StderrLine: {'line': b'\n'}
+[5.710976] (lab1_pkg) StderrLine: {'line': b'\n'}
+[5.713326] (lab1_pkg) CommandEnded: {'returncode': 1}
+[5.727927] (-) TimerEvent: {}
+[5.757249] (lab1_pkg) JobEnded: {'identifier': 'lab1_pkg', 'rc': 1}
+[5.768381] (-) EventReactorShutdown: {}

@@ -1,0 +1,57 @@
+[0.007s] Invoking command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg -DCMAKE_INSTALL_PREFIX=/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg
+[0.136s] -- The C compiler identification is GNU 9.4.0
+[0.234s] -- The CXX compiler identification is GNU 9.4.0
+[0.243s] -- Check for working C compiler: /usr/bin/cc
+[0.333s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.334s] -- Detecting C compiler ABI info
+[0.428s] -- Detecting C compiler ABI info - done
+[0.442s] -- Detecting C compile features
+[0.442s] -- Detecting C compile features - done
+[0.445s] -- Check for working CXX compiler: /usr/bin/c++
+[0.539s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.540s] -- Detecting CXX compiler ABI info
+[0.638s] -- Detecting CXX compiler ABI info - done
+[0.653s] -- Detecting CXX compile features
+[0.653s] -- Detecting CXX compile features - done
+[0.655s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.684s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.684s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.888s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.932s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.031s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.054s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.110s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.158s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.159s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.160s] -- Looking for pthread.h
+[1.246s] -- Looking for pthread.h - found
+[1.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.350s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.351s] -- Looking for pthread_create in pthreads
+[1.429s] -- Looking for pthread_create in pthreads - not found
+[1.430s] -- Looking for pthread_create in pthread
+[1.522s] -- Looking for pthread_create in pthread - found
+[1.524s] -- Found Threads: TRUE  
+[1.645s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.652s] CMake Error at CMakeLists.txt:22 (find_package):
+[1.652s]   By not providing "Findackermann_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.652s]   project has asked CMake to find a package configuration file provided by
+[1.652s]   "ackermann_msgs", but CMake did not find one.
+[1.652s] 
+[1.652s]   Could not find a package configuration file provided by "ackermann_msgs"
+[1.653s]   with any of the following names:
+[1.653s] 
+[1.653s]     ackermann_msgsConfig.cmake
+[1.653s]     ackermann_msgs-config.cmake
+[1.653s] 
+[1.653s]   Add the installation prefix of "ackermann_msgs" to CMAKE_PREFIX_PATH or set
+[1.653s]   "ackermann_msgs_DIR" to a directory containing one of the above files.  If
+[1.653s]   "ackermann_msgs" provides a separate development package or SDK, be sure it
+[1.653s]   has been installed.
+[1.653s] 
+[1.653s] 
+[1.653s] -- Configuring incomplete, errors occurred!
+[1.653s] See also "/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg/CMakeFiles/CMakeOutput.log".
+[1.653s] See also "/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg/CMakeFiles/CMakeError.log".
+[1.663s] Invoked command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg -DCMAKE_INSTALL_PREFIX=/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg

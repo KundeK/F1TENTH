@@ -1,0 +1,47 @@
+[35m[1mScanning dependencies of target talker[0m
+[35m[1mScanning dependencies of target relay[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:25:61:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   25 |       RCLCPP_INFO(this->get_logger(), "Publishing: '%f' '%f"[01;35m[K"[m[K, message.drive.speed, message.drive.steering_angle);
+      |                                                             [01;35m[K^[m[K
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:38:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   38 | }
+      | 
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:25:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   25 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%f' '%f"", message.drive.speed, message.drive.steering_angle);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:4:36:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    4 | class Talker : public rclcpp::Node [01;36m[K{[m[K
+      |                                    [01;36m[K^[m[K
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:9:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+    9 |       [01;31m[Kpublisher_[m[K = this->create_publisher<ackermann_msgs::msg::AckermannDriveStamped>("drive", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:10:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   10 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Ktimer_t[m[K
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In member function ‘[01m[Kvoid Talker::publish_message()[m[K’:
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:24:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   24 |       [01;31m[Kpublisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   25 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%f' '%f"", message.drive.speed, message.drive.steering_angle);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:25:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:16:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   16 |    void publish_message() [01;36m[K{[m[K
+      |                           [01;36m[K^[m[K
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K At global scope:
+[01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:25:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   25 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%f' '%f"", message.drive.speed, message.drive.steering_angle);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable relay[0m
+[ 75%] Built target relay
+make: *** [Makefile:141: all] Error 2

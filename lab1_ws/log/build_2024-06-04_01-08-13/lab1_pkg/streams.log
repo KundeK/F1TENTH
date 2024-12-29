@@ -1,0 +1,94 @@
+[0.009s] Invoking command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg -DCMAKE_INSTALL_PREFIX=/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.136s] -- The CXX compiler identification is GNU 9.4.0
+[0.144s] -- Check for working C compiler: /usr/bin/cc
+[0.228s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.229s] -- Detecting C compiler ABI info
+[0.328s] -- Detecting C compiler ABI info - done
+[0.340s] -- Detecting C compile features
+[0.340s] -- Detecting C compile features - done
+[0.342s] -- Check for working CXX compiler: /usr/bin/c++
+[0.434s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.436s] -- Detecting CXX compiler ABI info
+[0.541s] -- Detecting CXX compiler ABI info - done
+[0.555s] -- Detecting CXX compile features
+[0.555s] -- Detecting CXX compile features - done
+[0.557s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.582s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.583s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.768s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.801s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.902s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.941s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.036s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.037s] -- Looking for pthread.h
+[1.140s] -- Looking for pthread.h - found
+[1.141s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.242s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.242s] -- Looking for pthread_create in pthreads
+[1.324s] -- Looking for pthread_create in pthreads - not found
+[1.324s] -- Looking for pthread_create in pthread
+[1.427s] -- Looking for pthread_create in pthread - found
+[1.429s] -- Found Threads: TRUE  
+[1.543s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.543s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.600s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.668s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.669s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.669s] -- Configured cppcheck include dirs: 
+[1.669s] -- Configured cppcheck exclude dirs and/or files: 
+[1.670s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.670s] -- Configured cpplint exclude dirs and/or files: 
+[1.670s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.670s] -- Added test 'lint_cmake' to check CMake code style
+[1.671s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.671s] -- Added test 'uncrustify' to check C / C++ code style
+[1.671s] -- Configured uncrustify additional arguments: 
+[1.672s] -- Added test 'xmllint' to check XML markup files
+[1.674s] -- Configuring done
+[1.681s] -- Generating done
+[1.682s] -- Build files have been written to: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg
+[1.691s] Invoked command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg -DCMAKE_INSTALL_PREFIX=/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg
+[1.695s] Invoking command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg -- -j16 -l16
+[1.752s] [35m[1mScanning dependencies of target relay[0m
+[1.752s] [35m[1mScanning dependencies of target talker[0m
+[1.786s] [ 50%] [32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o[0m
+[1.786s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[4.947s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[5.080s] [ 75%] Built target talker
+[6.590s] [100%] [32m[1mLinking CXX executable relay[0m
+[6.800s] [100%] Built target relay
+[6.816s] Invoked command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg -- -j16 -l16
+[6.877s] Invoking command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg
+[6.888s] -- Install configuration: ""
+[6.888s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/talker
+[6.890s] -- Set runtime path of "/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/talker" to ""
+[6.890s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/relay
+[6.894s] -- Set runtime path of "/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/relay" to ""
+[6.894s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/pythonpath.sh
+[6.894s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/pythonpath.dsv
+[6.894s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/python3.8/site-packages/lab1_pkg
+[6.894s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/python3.8/site-packages/lab1_pkg/__init__.py
+[6.925s] Listing '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/python3.8/site-packages/lab1_pkg'...
+[6.925s] Compiling '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/python3.8/site-packages/lab1_pkg/__init__.py'...
+[6.927s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg//launch
+[6.927s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg//launch/launch.py
+[6.928s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/package_run_dependencies/lab1_pkg
+[6.928s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/parent_prefix_path/lab1_pkg
+[6.928s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/ament_prefix_path.sh
+[6.928s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/ament_prefix_path.dsv
+[6.928s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/path.sh
+[6.928s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/path.dsv
+[6.928s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.bash
+[6.928s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.sh
+[6.929s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.zsh
+[6.929s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.dsv
+[6.929s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/package.dsv
+[6.929s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/packages/lab1_pkg
+[6.930s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/cmake/lab1_pkgConfig.cmake
+[6.930s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/cmake/lab1_pkgConfig-version.cmake
+[6.930s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/package.xml
+[6.935s] Invoked command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg

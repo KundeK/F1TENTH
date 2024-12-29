@@ -1,0 +1,49 @@
+[0.010s] Invoking command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg -- -j16 -l16
+[0.067s] [35m[1mScanning dependencies of target talker[0m
+[0.067s] [35m[1mScanning dependencies of target relay[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.173s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:25:61:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.173s]    25 |       RCLCPP_INFO(this->get_logger(), "Publishing: '%f' '%f"[01;35m[K"[m[K, message.drive.speed, message.drive.steering_angle);
+[0.173s]       |                                                             [01;35m[K^[m[K
+[0.173s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:38:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.173s]    38 | }
+[0.173s]       | 
+[1.224s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:25:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.224s]    25 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%f' '%f"", message.drive.speed, message.drive.steering_angle);
+[1.224s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.225s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:4:36:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.225s]     4 | class Talker : public rclcpp::Node [01;36m[K{[m[K
+[1.225s]       |                                    [01;36m[K^[m[K
+[1.235s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[1.235s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:9:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.235s]     9 |       [01;31m[Kpublisher_[m[K = this->create_publisher<ackermann_msgs::msg::AckermannDriveStamped>("drive", 10);
+[1.235s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.235s]       |       [32m[Krcl_publisher_t[m[K
+[1.242s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:10:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.242s]    10 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[1.242s]       |       [01;31m[K^~~~~~[m[K
+[1.242s]       |       [32m[Ktimer_t[m[K
+[1.256s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K In member function ‘[01m[Kvoid Talker::publish_message()[m[K’:
+[1.256s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:24:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.256s]    24 |       [01;31m[Kpublisher_[m[K->publish(message);
+[1.256s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.256s]       |       [32m[Krcl_publisher_t[m[K
+[1.258s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[1.258s]    25 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%f' '%f"", message.drive.speed, message.drive.steering_angle);
+[1.258s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.258s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:25:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.258s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:16:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.258s]    16 |    void publish_message() [01;36m[K{[m[K
+[1.258s]       |                           [01;36m[K^[m[K
+[1.258s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:[m[K At global scope:
+[1.258s] [01m[K/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/src/talker.cpp:25:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.258s]    25 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%f' '%f"", message.drive.speed, message.drive.steering_angle);
+[1.258s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.878s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[1.879s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[1.879s] make[1]: *** Waiting for unfinished jobs....
+[4.362s] [ 75%] [32m[1mLinking CXX executable relay[0m
+[4.541s] [ 75%] Built target relay
+[4.542s] make: *** [Makefile:141: all] Error 2
+[4.544s] Invoked command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg -- -j16 -l16

@@ -1,0 +1,33 @@
+[0.678s] Invoking command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/pything': PYTHONPATH=/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/prefix_override:/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pything build --build-base /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build install --record /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/install.log --install-scripts $base/lib/pything --single-version-externally-managed install_data
+[0.884s] running egg_info
+[0.884s] creating ../../build/pything/pything.egg-info
+[0.884s] writing ../../build/pything/pything.egg-info/PKG-INFO
+[0.884s] writing dependency_links to ../../build/pything/pything.egg-info/dependency_links.txt
+[0.885s] writing entry points to ../../build/pything/pything.egg-info/entry_points.txt
+[0.885s] writing requirements to ../../build/pything/pything.egg-info/requires.txt
+[0.885s] writing top-level names to ../../build/pything/pything.egg-info/top_level.txt
+[0.894s] writing manifest file '../../build/pything/pything.egg-info/SOURCES.txt'
+[0.928s] reading manifest file '../../build/pything/pything.egg-info/SOURCES.txt'
+[0.929s] writing manifest file '../../build/pything/pything.egg-info/SOURCES.txt'
+[0.929s] running build
+[0.929s] running build_py
+[0.929s] creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build
+[0.929s] creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib
+[0.930s] creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib/pything
+[0.930s] copying pything/__init__.py -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib/pything
+[0.930s] running install
+[0.930s] running install_lib
+[0.931s] creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything
+[0.931s] copying /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib/pything/__init__.py -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything
+[0.932s] byte-compiling /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything/__init__.py to __init__.cpython-38.pyc
+[0.933s] running install_data
+[0.933s] creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index
+[0.933s] creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index/resource_index
+[0.933s] creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index/resource_index/packages
+[0.933s] copying resource/pything -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index/resource_index/packages
+[0.933s] copying package.xml -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/pything
+[0.933s] running install_egg_info
+[0.934s] Copying ../../build/pything/pything.egg-info to /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything-0.0.0-py3.8.egg-info
+[0.935s] running install_scripts
+[0.949s] writing list of installed files to '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/install.log'
+[0.975s] Invoked command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/pything' returned '0': PYTHONPATH=/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/prefix_override:/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pything build --build-base /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build install --record /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/install.log --install-scripts $base/lib/pything --single-version-externally-managed install_data

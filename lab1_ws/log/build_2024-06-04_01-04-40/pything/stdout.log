@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/pything/pything.egg-info
+writing ../../build/pything/pything.egg-info/PKG-INFO
+writing dependency_links to ../../build/pything/pything.egg-info/dependency_links.txt
+writing entry points to ../../build/pything/pything.egg-info/entry_points.txt
+writing requirements to ../../build/pything/pything.egg-info/requires.txt
+writing top-level names to ../../build/pything/pything.egg-info/top_level.txt
+writing manifest file '../../build/pything/pything.egg-info/SOURCES.txt'
+reading manifest file '../../build/pything/pything.egg-info/SOURCES.txt'
+writing manifest file '../../build/pything/pything.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build
+creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib
+creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib/pything
+copying pything/__init__.py -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib/pything
+running install
+running install_lib
+creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything
+copying /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/build/lib/pything/__init__.py -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything
+byte-compiling /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index
+creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index/resource_index
+creating /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index/resource_index/packages
+copying resource/pything -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/ament_index/resource_index/packages
+copying package.xml -> /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/share/pything
+running install_egg_info
+Copying ../../build/pything/pything.egg-info to /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/pything/lib/python3.8/site-packages/pything-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/pything/install.log'

@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:101 (file):
+  file INSTALL cannot find
+  "/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/src/lab1_pkg/scripts/talker.py":
+  No such file or directory.
+
+

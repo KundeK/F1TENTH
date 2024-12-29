@@ -1,0 +1,39 @@
+[0.010s] Invoking command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg -- -j16 -l16
+[0.068s] [35m[1mScanning dependencies of target talker[0m
+[0.069s] [35m[1mScanning dependencies of target relay[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o[0m
+[3.047s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[3.172s] [ 75%] Built target talker
+[4.761s] [100%] [32m[1mLinking CXX executable relay[0m
+[4.942s] [100%] Built target relay
+[4.958s] Invoked command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg -- -j16 -l16
+[5.017s] Invoking command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg
+[5.029s] -- Install configuration: ""
+[5.029s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/talker
+[5.030s] -- Set runtime path of "/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/talker" to ""
+[5.030s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/relay
+[5.031s] -- Set runtime path of "/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/lab1_pkg/relay" to ""
+[5.032s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/pythonpath.sh
+[5.032s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/pythonpath.dsv
+[5.032s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/python3.8/site-packages/lab1_pkg
+[5.032s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/python3.8/site-packages/lab1_pkg/__init__.py
+[5.061s] Listing '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/lib/python3.8/site-packages/lab1_pkg'...
+[5.064s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg//launch
+[5.064s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg//launch/lab1_launch.py
+[5.064s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/package_run_dependencies/lab1_pkg
+[5.064s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/parent_prefix_path/lab1_pkg
+[5.064s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/ament_prefix_path.sh
+[5.064s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/ament_prefix_path.dsv
+[5.064s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/path.sh
+[5.064s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/path.dsv
+[5.064s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.bash
+[5.065s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.sh
+[5.065s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.zsh
+[5.065s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.dsv
+[5.065s] -- Installing: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/package.dsv
+[5.065s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/packages/lab1_pkg
+[5.065s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/cmake/lab1_pkgConfig.cmake
+[5.065s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/cmake/lab1_pkgConfig-version.cmake
+[5.065s] -- Up-to-date: /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/install/lab1_pkg/share/lab1_pkg/package.xml
+[5.069s] Invoked command in '/home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kshreyas/Projects/ese6150_f1tenth/lab1_ws/build/lab1_pkg
